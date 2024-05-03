@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'TWRP_DAGU'
+        default: 'omni_dagu'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
