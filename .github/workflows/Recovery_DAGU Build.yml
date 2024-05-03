@@ -1,4 +1,4 @@
-name: Recovery Build
+name: Recovery Build_dagu
 
 on:
   workflow_dispatch:
@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/xindaowei0/dagu_device_tree'
+        default: 'https://github.com/xindaowei0/device_xiaomi_dagu'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-14'
+        default: 'android'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
