@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'dagu-v0'
+        default: 'dagu-v0.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
