@@ -1,4 +1,4 @@
-name: Recovery Build（DAGU）elish
+name: Recovery Build（DAGU）870-888
 
 on:
   workflow_dispatch:
@@ -23,10 +23,10 @@ on:
         description: 'DEVICE_PATH'
         required: true
         default: 'device/xiaomi/elish'
-      COMMON_TREE_URL:
+      COMMON_TREE_URL:'https://github.com/xindaowei0/dagu_device_tree'
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
-        required: false
-      COMMON_PATH:
+        required: true
+      COMMON_PATH: 'main'
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
       DEVICE_NAME:
